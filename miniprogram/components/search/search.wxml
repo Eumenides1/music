@@ -1,0 +1,6 @@
+<view class="container">
+<!-- 组件的样式隔离 无法获取到全局样式 -->
+  <i class="iconfont icon-sousuo find"></i>
+    <input class="bar" placeholder="{{placeHolder}}" placeholder-class="in-bar" bindinput="onInput"></input>
+    <button class="search" bind:tap="onSearch">搜索</button>
+</view>
